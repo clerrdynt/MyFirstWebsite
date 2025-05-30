@@ -98,6 +98,39 @@ nav a:hover::after {
   color: #f08a8a;
 }
 
+.basic .home-content {
+  max-width: 600px;
+  background-color: #111;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(240, 138, 138, 0.3);
+  border: 1px solid #f08a8a;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.basic .home-content h1 {
+  font-size: 32px;
+  color: #f08a8a;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #f08a8a;
+  padding-bottom: 10px;
+}
+
+.basic .home-content p {
+  font-size: 18px;
+  margin: 15px 0;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.basic .home-content p strong {
+  min-width: 150px;
+  color: #f08a8a;
+  font-weight: 600;
+}
+
 .typing-text {
   font-size: 24px;
   color: #f08a8a;
